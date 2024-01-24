@@ -6,7 +6,7 @@
 #    By: mboudrio <mboudrio@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/01/05 10:16:08 by mboudrio          #+#    #+#              #
-#    Updated: 2024/01/06 23:08:55 by mboudrio         ###   ########.fr        #
+#    Updated: 2024/01/24 19:38:30 by mboudrio         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ CC = c++
 CPPFLAGS = -Wall -Wextra -Werror -std=c++98 
 SRC = main.cpp ClapTrap.cpp ScavTrap.cpp 
 OBJ = $(SRC:.cpp=.o)
-NAME = main01
+NAME = ScavTrap
 
 all: $(NAME)
 

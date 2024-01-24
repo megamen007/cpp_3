@@ -6,7 +6,7 @@
 /*   By: mboudrio <mboudrio@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/05 10:16:32 by mboudrio          #+#    #+#             */
-/*   Updated: 2024/01/07 00:01:16 by mboudrio         ###   ########.fr       */
+/*   Updated: 2024/01/24 20:51:16 by mboudrio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int main()
     claptrap.beRepaired(2);
     claptrap.attack(" JASMINE ");
     claptrap.takeDamage(15);
-
+    std::cout << "--------------------------" << std::endl;
     ScavTrap scavtrap(" [*1] ");
     scavtrap.attack(" [*2] ");
     scavtrap.takeDamage(3);
@@ -28,7 +28,7 @@ int main()
     scavtrap.guardGate();
     scavtrap.attack(" [*3] ");
     scavtrap.takeDamage(15);
-
+    std::cout << "--------------------------" << std::endl;
     FragTrap fragtrap("Frag");
     fragtrap.highFivesGuys();
     fragtrap.attack("garf");

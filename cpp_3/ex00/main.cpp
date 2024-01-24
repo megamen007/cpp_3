@@ -6,7 +6,7 @@
 /*   By: mboudrio <mboudrio@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/05 10:15:55 by mboudrio          #+#    #+#             */
-/*   Updated: 2024/01/06 23:01:30 by mboudrio         ###   ########.fr       */
+/*   Updated: 2024/01/24 20:54:35 by mboudrio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,8 @@ int main()
     ClapTrap claptrap(" JOHN ");
     claptrap.attack(" JACK ");
     claptrap.takeDamage(3);
-    claptrap.beRepaired(2);
-    claptrap.attack(" JASMINE ");
+    claptrap.beRepaired(-2);
+    claptrap.attack(" JAS ");
     claptrap.takeDamage(15);
     return 0;
 }

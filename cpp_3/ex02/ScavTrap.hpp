@@ -6,7 +6,7 @@
 /*   By: mboudrio <mboudrio@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/05 10:16:39 by mboudrio          #+#    #+#             */
-/*   Updated: 2024/01/06 23:33:57 by mboudrio         ###   ########.fr       */
+/*   Updated: 2024/01/24 20:01:05 by mboudrio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ class ScavTrap : public ClapTrap
     ScavTrap &operator=(const ScavTrap& copy);
     void guardGate();
     void attack(const std::string& target);
+    
     ~ScavTrap();
 };
 
